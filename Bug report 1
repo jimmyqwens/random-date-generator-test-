@@ -1,0 +1,32 @@
+# Bug Report 1
+
+## Title 
+Application becomes unresponsive when generating > 1,000,000 dates in Microsoft Edge
+
+## Environment
+- Browser: Microsoft Edge (Latest) 
+- OS: Windows
+- URL: https://codebeautify.org/generate-random-date
+
+## Severity
+High
+
+## Priority 
+Medium 
+
+## Steps to Reproduce 
+1. Open the Random Date Generater tool.
+2. Leave default date range values.
+3. Enter "1,000,000" in the " How many dates to generate?" field.
+Click "Generate"
+
+## Expected Result
+The application should either:
+- Restrict the user from excessively large inputs
+- Display a validation error message
+- Handle the request without freezing the browser.
+
+## Actual Result 
+- The browser displays a "Page unresponsive" dialog.
+- The application becomes unsuable.
+- User must wait or exit the process.
