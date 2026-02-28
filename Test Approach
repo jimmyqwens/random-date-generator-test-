@@ -1,0 +1,23 @@
+# Test Approach
+
+## Scope
+Only the Random Date Generator tool was tested.
+
+## Assumptions
+- The tool generates random dates within the selected range.
+- The number inputted should accept only reasonable number values
+- The UI should remain responsive and readable.
+
+## Testing Techniques Used 
+
+- Functional Testing 
+- Boundary Value Analysis(BVA)
+- Equivalent Partitioning(EP)
+- Stress Testing 
+- Cross-Browser testing
+- Exploratory Testing
+
+## Browser Testing 
+
+- Microsoft Edge(Latest)
+- Mozilla Firefox(Latest)
