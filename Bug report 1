@@ -18,7 +18,7 @@ Medium
 1. Open the Random Date Generater tool.
 2. Leave default date range values.
 3. Enter "1,000,000" in the " How many dates to generate?" field.
-Click "Generate"
+4. Click "Generate"
 
 ## Expected Result
 The application should either:
