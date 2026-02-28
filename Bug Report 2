@@ -1,0 +1,27 @@
+# Bug Report 2
+
+## Title 
+Generated dates overlap and render incorrectly after high-volume generated in Firefox 
+
+## Environment
+- Browser: Mozilla Firefox (Latest) 
+- OS: Windows
+- URL: https://codebeautify.org/generate-random-date
+
+## Severity
+Medium 
+
+## Priority 
+Low
+
+## Steps to Reproduce 
+1. Open the Random Date Generater tool in Firefox.
+2. Enter "1,000,000" in the " How many dates to generate?" field.
+3. Click "Generate"
+4. Scroll through the generated results.
+
+## Expected Result
+The generated dates should display clearly with consistent formatting.
+
+## Actual Result 
+The dates apperar bolded and visually overlaped, The layout becomes distorted after large-volume generated.
