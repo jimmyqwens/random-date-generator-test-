@@ -1,0 +1,28 @@
+# Test Report 
+
+## Objective 
+To evaluate the functionality, stability, performance, and usability of the Random Date Generator 
+
+## Summary of testing 
+
+The application was tested for: 
+- Correct date generation 
+- Input validation
+- Boundary Limits
+- Performance under large inputs loads 
+- Cross-Browser consistency 
+
+## Key findings
+
+1. The tool functions correctly for small and medium date generation volumes.
+2. No max boundary validation exists for the "How many dates to generate?" field.
+3. Entering large values ( > 1,000,000) casues the severe performance to down-grade.
+4. Microsoft Edge becomes fully unresponsive.
+5. Firefox experience temporarily freezing and UI rendering issues.
+6. After extreme input, date entries visually overlap in Firefox
+
+## Overall Assessment
+
+The application perform normal under regular conditions, 
+However it lacks input boundary validation and performanc safeguards. Which can lead to browser instability
+and UI defects under high-load.
